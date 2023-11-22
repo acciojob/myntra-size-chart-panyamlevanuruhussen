@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+table{
+	border:2px solid black;
+	width:95vw;
+	margin:auto;
+	text-align:left;	
+	border-collapse:collapse;
+}
+td,th{
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+}
+th{
+	background-color:crimson;
+}
+tr:nth-child(1){
+	background-color:hotpink;
+}
+tr:nth-child(2){
+	background-color:lightpink;
+}
+tr:nth-child(3){
+	background-color:gray;
+}
